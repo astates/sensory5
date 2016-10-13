@@ -31,7 +31,7 @@
                     </section>
 
                     <section>
-                        <h2><a href="fun">NASA API</a></h2>
+                        <h2><a href="nasaapi">NASA API</a></h2>
                         <hr class="intro-divider">
                         <p>Let's see what we can do with this NASA API shall we?</p>
                     </section>
