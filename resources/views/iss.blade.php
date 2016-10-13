@@ -12,7 +12,6 @@
                     <p class="intro_text_big">The International Space Station</p>
                     <p>How about a live stream from the I.S.S.?</p>
                     <iframe class="iss" src="http://www.ustream.tv/channel/iss-hdev-payload"></iframe>
-                    <p>For more info on the I.S.S. visit their <a href="https://en.wikipedia.org/wiki/International_Space_Station">Wiki</a>
                     
                 </div>
                 

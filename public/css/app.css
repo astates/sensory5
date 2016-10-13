@@ -7892,10 +7892,11 @@ canvas {
 	left:0;
 	right:0;
 	margin:auto;
-	bottom:5px;
 	color:white;
 	background:black;
 	padding-top:20px;
+	position:absolute;
+	bottom:0px;
 }
 .list li
 {

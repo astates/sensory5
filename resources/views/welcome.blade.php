@@ -41,9 +41,9 @@
                 </div>
                 
             </div>
-            @include('footer')
+            
         </div>
-
+        @include('footer')
         </div>
         <script>
         $(document).ready(function(){
