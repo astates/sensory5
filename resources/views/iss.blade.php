@@ -6,7 +6,7 @@
     <canvas id="space"></canvas>
     <div class="container">
     @include('nav')
-        <div class="position-ref full-height padded-top">
+        <div class="position-ref fullHeight overflow_hide padded-top">
             <div class="content">
                 <div class="sub_container">
                     <p class="intro_text_big">The International Space Station</p>

@@ -6,7 +6,7 @@
     <canvas id="space"></canvas>
     <div class="container">
     @include('nav')
-        <div class="position-ref full-height padded-top">
+        <div class="position-ref padded-top">
             <div class="content">
                 <ul class="bxslider">
                   <li><img src="img/1.jpg" title="We are star-stuff. — Carl Sagan"/></li>
@@ -35,6 +35,7 @@
                         <hr class="intro-divider">
                         <p>Let's see what we can do with this NASA API shall we?</p>
                     </section>
+                    <div class="clear"></div>
                     </div>
                     
                 </div>

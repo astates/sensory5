@@ -11,6 +11,14 @@
 |
 */
 
+Route::get('/sensory5_laravel/public/', function () {
+    return view('welcome');
+});
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
 Route::get('/home', function () {
     return view('welcome');
 });

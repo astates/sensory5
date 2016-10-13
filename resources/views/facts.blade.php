@@ -6,7 +6,7 @@
     <canvas id="space"></canvas>
     <div class="container">
     @include('nav')
-        <div class="position-ref full-height padded-top">
+        <div class="position-ref fullHeight padded-top">
             <div class="content">
                 <div class="sub_container">
                     <p class="intro_text_big">Here are some sweet space facts, enjoy!!</p>
