@@ -11,6 +11,22 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('welcome');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/facts', function () {
+    return view('facts');
+});
+
+Route::get('/iss', function () {
+    return view('iss');
+});
+
+Route::get('/nasaapi', function () {
+    return view('nasaapi');
 });
