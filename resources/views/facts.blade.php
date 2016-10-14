@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     @include('header')
-
     <body>
-    <canvas id="space"></canvas>
-    <div class="container">
-    @include('nav')
+        <canvas id="space"></canvas>
+        <div class="container">
+            @include('nav')
             <div class="content padding_top:">
                 <div class="sub_container">
                     <p class="intro_text_big">Here are some sweet space facts, enjoy!!</p>
@@ -18,11 +17,9 @@
                         <li>If two pieces of the same type of metal touch in space, they will bond and be permanently stuck together.</li>
                         <li>The largest asteroid ever recorded is a mammoth piece of space rock named Ceres.</li>
                     </ul>
-                    
                 </div>
                 @include('footer')
             </div>
-        
         </div>
     </body>
 </html>
