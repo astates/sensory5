@@ -6,25 +6,22 @@
     <canvas id="space"></canvas>
     <div class="container">
     @include('nav')
-        <div class="position-ref fullHeight padded-top">
-            <div class="content">
-                <div class="sub_container">
-                    <p class="intro_text_big">NASA API</p>
-                      
-  <img id="apod_img_id" width="100%"/>
-  
-  <p id="copyright"></p>
-  
-  <h3 id="apod_title"></h3>
-  <p id="apod_explaination"></p>
-  
-                    
-                </div>
-                
-            </div>
-        </div>@include('footer')
-        
-        </div>
+    	<div class="content">
+	        <div class="position-ref fullHeight padded-top">
+	            <div class="content">
+	                <div class="sub_container">
+	                    <p class="intro_text_big">NASA API</p>
+	                    <img id="apod_img_id" width="100%"/>
+						<p id="copyright"></p>
+	  					<h3 id="apod_title"></h3>
+						<p id="apod_explaination"></p>
+	  				</div>
+	            </div>
+	        </div>
+	    </div>
+        @include('footer')
+    </div>
+
 <script>
         var url = "https://api.nasa.gov/planetary/apod?api_key=QdoNiUu89neCYnO55Rjbpb3LzJoTmQCs4oBFpsxp";
 

@@ -7728,8 +7728,8 @@ body {
     color: #636b6f;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
-    height: 100vh;
     margin: 0;
+    height:100%;
 }
 
 .full-height {
@@ -7753,7 +7753,8 @@ body {
 }
 
 .content {
-    text-align: center;
+    text-align: center;/*
+    padding-bottom:60px;*/
 }
 
 .title {
@@ -7821,7 +7822,8 @@ canvas {
     padding-top: 41px;
 }
 
-.title {
+.title 
+{
     position: absolute;
     z-index: 9;
     top: 326px;
@@ -7886,6 +7888,12 @@ canvas {
 {
 	font-size:1.3em;
 }
+.footer
+{
+	position:absolute;
+	bottom:0px;
+	width:100%;
+}
 .footer_text
 {
 	text-align:center;
@@ -7895,8 +7903,7 @@ canvas {
 	color:white;
 	background:black;
 	padding-top:20px;
-	position:absolute;
-	bottom:0px;
+	
 }
 .list li
 {
@@ -7930,6 +7937,74 @@ canvas {
 	{
 		overflow:hidden;
 	}
+@media all and (min-width: 1281px)
+{
+	.container
+	{
+		height:100%;
+	}
+	.content
+	{
+		padding-bottom:60px;
+	}
+	.fullHeight_spec
+	{
+		height:100%;
+	}
+}
+@media all and (min-width: 900px) and (max-width: 1280px)
+{
+	.container
+	{
+		height:100%;
+	}
+	.content
+	{
+		padding-bottom:60px;
+	}
+	.fullHeight_spec
+	{
+		height:100%;
+	}
+}
+@media all and (min-width: 770px) and (max-width: 899px)
+{
+	.navbar
+	{
+		width:inherit !important;
+	}
+}
+@media all and (min-width: 426px) and (max-width: 899px)
+{
+	.container
+	{
+		height:100%;
+		margin-top:41px;
+	}
+	.content
+	{
+		padding-bottom:60px;
+	}
+	.three_boxes section h2 
+	{
+    margin: 9px 0px;
+    font-size: 2.6em;
+	}
+	.three_boxes section 
+	{
+    width: 100%;
+    border-radius: 35px;
+	}
+	.three_boxes section:nth-of-type(2) 
+	{
+	    margin: 10px 0px;
+	}
+	.navbar
+	{
+		width:100%;
+		overflow:hidden;
+	}
+}
 @media all and (min-width: 321px) and (max-width: 425px)
 {
 	.nav 
@@ -7957,6 +8032,24 @@ canvas {
 	.bx-controls
 	{
 		display:none;
+	}
+	.container 
+	{
+    height:auto;
+
+    margin-top:52px;
+	}
+	.content
+	{
+		padding-bottom:60px;
+	}
+	.navbar-collapse
+	{
+		overflow:hidden;
+	}
+	.navbar
+	{
+		width:100%;
 	}
 
 
@@ -7989,6 +8082,19 @@ canvas {
 	.bx-controls
 	{
 		display:none;
+	}
+	.container 
+	{
+    height:auto;
+    margin-top:52px;
+	}
+	.content
+	{
+		padding-bottom:60px;
+	}
+	.navbar
+	{
+		width:100%;
 	}
 
 
